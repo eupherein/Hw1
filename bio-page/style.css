@@ -1,0 +1,36 @@
+#db {
+	background-color: #9370DB;
+	margin: 10px 10px 10px 200px;
+	width: 250px;
+}
+
+#About {
+	float: left;
+	width: 650px;
+	margin: 10px 10px 10px 200px;
+	padding: 10px 10px;
+	background-color: #A9A9A9;
+	text-align: justify;
+}
+
+#connect {
+	float: right;
+	width: 270px;
+	background-color: #A9A9A9;
+	padding: 20px 40px 40px 20px;
+	margin: 10px 200px 10px 10px;
+	text-align: center;
+}
+
+#image {
+	float: left;
+	border: 3px solid #666; 
+	margin: 10px;
+}
+
+h2 {
+	margin: 20px;
+	padding:10px;
+	font-size: 30px;
+	bottom-border: 2px solid #ffffff;
+}
