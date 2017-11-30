@@ -1,25 +1,25 @@
 #db {
 	background-color: #9370DB;
-	margin: 10px 10px 10px 200px;
-	width: 250px;
+	margin
 }
 
 #About {
 	float: left;
-	width: 650px;
-	margin: 10px 10px 10px 200px;
+	width: 550px;
+	margin: 10px 10px 10px 10px;
 	padding: 10px 10px;
 	background-color: #A9A9A9;
 	text-align: justify;
-}
-
+	line-height: 1.5;
+} 
 #connect {
 	float: right;
-	width: 270px;
+	width: 250px;
 	background-color: #A9A9A9;
 	padding: 20px 40px 40px 20px;
-	margin: 10px 200px 10px 10px;
+	margin: 10px 10px 10px 10px;
 	text-align: center;
+
 }
 
 #image {
@@ -28,9 +28,27 @@
 	margin: 10px;
 }
 
-h2 {
-	margin: 20px;
-	padding:10px;
-	font-size: 30px;
-	bottom-border: 2px solid #ffffff;
+#wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav { 
+	display: inline;
+	float: right;
+}
+
+#header {
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	overflow: auto;
+}
+
+#main-container {
+	padding-top: 125px;
+}
+
+#logo {
+	font-size: 60px;
 }
