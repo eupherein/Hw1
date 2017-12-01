@@ -1,6 +1,11 @@
-#db {
+#logo {
 	background-color: #9370DB;
-	margin
+	border-top: #778899 inset 4px;
+	border-left: #778899 inset 4px;
+	border-right: #778899 inset 4px;	
+	text-decoration: none;
+	
+	
 }
 
 #About {
@@ -11,7 +16,10 @@
 	background-color: #A9A9A9;
 	text-align: justify;
 	line-height: 1.5;
+	border: #778899 inset 4px;
+	
 } 
+
 #connect {
 	float: right;
 	width: 250px;
@@ -19,7 +27,13 @@
 	padding: 20px 40px 40px 20px;
 	margin: 10px 10px 10px 10px;
 	text-align: center;
+	font-size: 20px;
+	border: #778899 inset 4px;
+	
+}
 
+a {
+	padding: 10px;
 }
 
 #image {
@@ -40,9 +54,11 @@ nav {
 
 #header {
 	width: 100%;
-	background-color: white;
+	background-color: #C0C0C0;
 	position: fixed;
-	overflow: auto;
+	padding:15px;
+	margin-right: 10px;
+
 }
 
 #main-container {
@@ -51,4 +67,82 @@ nav {
 
 #logo {
 	font-size: 60px;
+}
+
+#spacing {
+	padding-top:150px
+}
+
+#formbox {
+	background: #A9A9A9;
+	width: 550px;
+}
+
+p {
+	text-indent: 25px;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	background-color: #9370DB;
+	width: 100%;
+	margin-bottom:15px;
+	opacity: .25;
+}
+
+body {
+	background-image:url(https://tinyurl.com/ycu6l2n9)
+}
+
+.button {
+	background: #696969;
+	font-size:24px;
+	float: bottom;
+	border: 5px #9370DB inset;
+	text-decoration: none;
+}
+
+.galleryL {
+	float: left;
+	margin: 10px 0px}
+
+.galleryR {
+	float: right;
+	margin: 10x 0px
+}
+
+input[type=text], select, textarea {
+    width: 550px;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+	resize: vertical;
+	float: left;
+}
+
+
+input[type=submit] {
+    background-color: #9370DB;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #9370DB;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+	padding: 100px;
 }
